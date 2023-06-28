@@ -1,0 +1,169 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcommons-net:commons-net[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Net 3.10.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-java-version)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.15:check[m [1m(rat-check)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.4.0:parse-version[m [1m(parse-version)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:3.1.0:run[m [1m(javadoc.resources)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:3.1.0:create[m [1m(default)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/h-alan/summer2023/commons-net1' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/h-alan/summer2023/commons-net1
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1687968705425
+[[1;34mINFO[m] Storing scmBranch: master
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:resources[m [1m(default-resources)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.8:manifest[m [1m(bundle-manifest)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Writing manifest: /home/h-alan/summer2023/commons-net1/target/osgi/MANIFEST.MF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:testResources[m [1m(default-testResources)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.23:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.16:test[m [1m(default-test)[m @ [36mcommons-net[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /home/h-alan/summer2023/commons-net1/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+----------------Instrumented execution to record the trace-----------------
+[RV-Predict] Log directory: /tmp/rv-predict1043014435527723853
+[RV-Predict] Finished retransforming preloaded classes.
+Running org.apache.commons.net.imap.IMAPTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.429 sec - in org.apache.commons.net.imap.IMAPTest
+Running org.apache.commons.net.ftp.FTPSClientTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Loading file:/home/h-alan/summer2023/commons-net1/target/test-classes/org/apache/commons/net/ftpsserver/ftpserver.jks
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 89.963 sec - in org.apache.commons.net.ftp.FTPSClientTest
+Running org.apache.commons.net.ftp.TestConnectTimeout
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.1 sec - in org.apache.commons.net.ftp.TestConnectTimeout
+Running org.apache.commons.net.ftp.FTPClientTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.apache.commons.net.ftp.FTPClientTest
+Running org.apache.commons.net.ftp.parser.UnixFTPEntryParserTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.apache.commons.net.ftp.parser.UnixFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.NetwareFTPEntryParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.net.ftp.parser.NetwareFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.MVSFTPEntryParserTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.apache.commons.net.ftp.parser.MVSFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.FTPTimestampParserImplTest
+Skipping Feb 29 test (not leap year or before Feb 29)
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.apache.commons.net.ftp.parser.FTPTimestampParserImplTest
+Running org.apache.commons.net.ftp.parser.OS400FTPEntryParserTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.commons.net.ftp.parser.OS400FTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.VMSFTPEntryParserTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.apache.commons.net.ftp.parser.VMSFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.OS400FTPEntryParserAdditionalTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.apache.commons.net.ftp.parser.OS400FTPEntryParserAdditionalTest
+Running org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.MLSxEntryParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.net.ftp.parser.MLSxEntryParserTest
+Running org.apache.commons.net.ftp.parser.NTFTPEntryParserTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.apache.commons.net.ftp.parser.NTFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactoryTest
+Running org.apache.commons.net.ftp.parser.MacOsPeterFTPEntryParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.net.ftp.parser.MacOsPeterFTPEntryParserTest
+Running org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest
+Running org.apache.commons.net.ftp.FTPClientConfigTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.commons.net.ftp.FTPClientConfigTest
+Running org.apache.commons.net.ftp.FTPCommandTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.net.ftp.FTPCommandTest
+Running org.apache.commons.net.examples.MainTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec - in org.apache.commons.net.examples.MainTest
+Running org.apache.commons.net.telnet.TelnetOptionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.net.telnet.TelnetOptionTest
+Running org.apache.commons.net.telnet.SuppressGAOptionHandlerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.net.telnet.SuppressGAOptionHandlerTest
+Running org.apache.commons.net.telnet.EchoOptionHandlerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.net.telnet.EchoOptionHandlerTest
+Running org.apache.commons.net.telnet.TelnetClientTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.777 sec - in org.apache.commons.net.telnet.TelnetClientTest
+Running org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest
+Running org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest
+Running org.apache.commons.net.telnet.WindowSizeOptionHandlerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.net.telnet.WindowSizeOptionHandlerTest
+Running org.apache.commons.net.telnet.SimpleOptionHandlerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.net.telnet.SimpleOptionHandlerTest
+Running org.apache.commons.net.nntp.TestThreader
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.net.nntp.TestThreader
+Running org.apache.commons.net.util.UtilTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.net.util.UtilTest
+Running org.apache.commons.net.util.Base64Test
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 19, Time elapsed: 0.017 sec - in org.apache.commons.net.util.Base64Test
+Running org.apache.commons.net.SubnetUtilsTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in org.apache.commons.net.SubnetUtilsTest
+Running org.apache.commons.net.smtp.SimpleSMTPHeaderTestCase
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.net.smtp.SimpleSMTPHeaderTestCase
+Running org.apache.commons.net.time.TimeTCPClientTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.004 sec - in org.apache.commons.net.time.TimeTCPClientTest
+Running org.apache.commons.net.ntp.TestNtpPacket
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.apache.commons.net.ntp.TestNtpPacket
+Running org.apache.commons.net.ntp.TestTimeInfo
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.net.ntp.TestTimeInfo
+Running org.apache.commons.net.ntp.TestNtpClient
+Running NTP service on port 40524/UDP
+NTP packet from 127.0.0.1 mode=Client
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.021 sec - in org.apache.commons.net.ntp.TestNtpClient
+Running org.apache.commons.net.ntp.TimeStampTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.net.ntp.TimeStampTest
+Running org.apache.commons.net.io.DotTerminatedMessageReaderTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.commons.net.io.DotTerminatedMessageReaderTest
+Running org.apache.commons.net.io.ToNetASCIIInputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.net.io.ToNetASCIIInputStreamTest
+Running org.apache.commons.net.tftp.TFTPServerPathTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in org.apache.commons.net.tftp.TFTPServerPathTest
+Running org.apache.commons.net.tftp.TFTPTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 263.459 sec - in org.apache.commons.net.tftp.TFTPTest
+No races found.
+
+Results :
+
+Tests run: 313, Failures: 0, Errors: 0, Skipped: 19
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  06:51 min
+[[1;34mINFO[m] Finished at: 2023-06-28T12:18:35-04:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
